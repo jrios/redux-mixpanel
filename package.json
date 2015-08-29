@@ -1,0 +1,22 @@
+{
+  "name": "redux-mixpanel",
+  "version": "1.0.0",
+  "description": "Middleware for saving actions that will be dispatched to mixpanel.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib/ && babel -d lib/ src/",
+    "prepublish": "npm run build",
+    "test": "babel-node ./test/index.js | tap-dot"
+  },
+  "author": "Jacob Rios <rios.jacob@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "sinon": "^1.16.1",
+    "tap-dot": "^1.0.0",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "mixpanel": "^0.3.1"
+  }
+}
