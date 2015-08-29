@@ -10,6 +10,18 @@
   },
   "author": "Jacob Rios <rios.jacob@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrios/redux-mixpanel"
+  },
+  "bugs": {
+    "url": "https://github.com/jrios/redux-mixpanel/issues"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "mixpanel"
+  ],
   "devDependencies": {
     "babel": "^5.8.21",
     "sinon": "^1.16.1",
